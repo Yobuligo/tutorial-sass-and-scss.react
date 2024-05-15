@@ -1,6 +1,15 @@
+// declare variables
+$text-color: #222222;
+
+// assign variable to another variable
+$second-color: $text-color;
+
 .body {
   background-color: #eee;
-  color: #800;
+  color: $text-color;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 
   // Selectors can be stacked
   p {

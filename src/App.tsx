@@ -1,3 +1,5 @@
+import { Lesson_01 } from "./lessons/Lesson_01";
+
 export const App: React.FC = () => {
-  return <>Hello World</>;
+  return <Lesson_01 />;
 };
