@@ -1,8 +1,14 @@
+@import "../mixins-example.scss";
+
 // declare variables
 $text-color: #222222;
 
 // assign variable to another variable
 $second-color: $text-color;
+
+.warningMessage {
+  @include warning;
+}
 
 .body {
   background-color: #eee;
