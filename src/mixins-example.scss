@@ -7,3 +7,11 @@
   background-color: orange;
   color: #fff;
 }
+
+@mixin link {
+  a {
+    color: blueviolet;
+  }
+}
+
+@include link;
