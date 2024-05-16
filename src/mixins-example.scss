@@ -1,4 +1,9 @@
+@mixin rounded {
+  border-radius: 8px;
+}
+
 @mixin warning {
+  @include rounded;
   background-color: orange;
   color: #fff;
 }
