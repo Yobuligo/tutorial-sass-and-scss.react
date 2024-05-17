@@ -2,6 +2,16 @@
   border-radius: 8px;
 }
 
+@mixin roundedFlexible($radius) {
+  border-radius: $radius;
+}
+
+@mixin error {
+  @include roundedFlexible(12px);
+  background-color: red;
+  color: white;
+}
+
 @mixin warning {
   @include rounded;
   background-color: orange;
