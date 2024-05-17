@@ -14,6 +14,10 @@ $second-color: $text-color;
   @include error;
 }
 
+.infoMessage {
+  @include info;
+}
+
 .body {
   background-color: #eee;
   color: $text-color;

@@ -6,6 +6,7 @@ export const Lesson_01: React.FC = () => {
       <div className={styles.body}>Hello World</div>
       <div className={styles.warningMessage}>Warning message</div>
       <div className={styles.errorMessage}>Error message</div>
+      <div className={styles.infoMessage}>Info message</div>
     </>
   );
 };

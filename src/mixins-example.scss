@@ -12,6 +12,25 @@
   color: white;
 }
 
+@mixin roundedWithDefault($radius: 6px, $border: 1px solid black) {
+  border-radius: $radius;
+  background-color: #1a589e4f;
+  color: black;
+  border: $border;
+}
+
+@mixin info {
+  @include roundedWithDefault();
+}
+
+@mixin info2 {
+  @include roundedWithDefault(12px, 3px solid green);
+}
+
+@mixin info3 {
+  @include roundedWithDefault($border: 3px solid green);
+}
+
 @mixin warning {
   @include rounded;
   background-color: orange;
