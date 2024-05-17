@@ -35,6 +35,10 @@
   box-shadow: $shadows;
 }
 
+@mixin inject {
+  @content;
+}
+
 @mixin warning {
   @include rounded;
   background-color: orange;
