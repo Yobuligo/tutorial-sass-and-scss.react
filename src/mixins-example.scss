@@ -31,6 +31,10 @@
   @include roundedWithDefault($border: 3px solid green);
 }
 
+@mixin shadow($shadows...) {
+  box-shadow: $shadows;
+}
+
 @mixin warning {
   @include rounded;
   background-color: orange;

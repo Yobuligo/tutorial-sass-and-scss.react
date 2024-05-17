@@ -16,6 +16,7 @@ $second-color: $text-color;
 
 .infoMessage {
   @include info;
+  @include shadow(9px 2px 2px olive, 12px 3px 3px yellow);
 }
 
 .body {
