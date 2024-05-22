@@ -1,0 +1,18 @@
+@import "../mixins-example.scss";
+
+body h1 {
+//   @include small-screen {
+    font-size: 12px;
+    color: green;
+//   }
+
+  @include medium-screen {
+    font-size: 22px;
+    color: red;
+  }
+
+  @include large-screen {
+    font-size: 30px;
+    color: blue;
+  }
+}
