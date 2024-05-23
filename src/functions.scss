@@ -1,0 +1,13 @@
+// This function would sum 12px + 15px
+@function sum($left, $right) {
+  @return $left + $right;
+}
+
+.test {
+  width: sum(12px, 15px);
+}
+
+// This function calculates the em value by the current context
+@function em($pixels, $context: 16px) {
+  @return ($pixels / $context) * 1em;
+}

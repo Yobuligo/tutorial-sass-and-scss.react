@@ -19,5 +19,14 @@ body h1 {
 
 .newContainer {
   color: rgb(10, 15, 50);
-  background-color: hsl(60, 50%, 100%);
+  background-color: lighten(rgba(0, 0, 0, 0.322), 40%);
+  border-bottom: 3px solid opacify(#000000, 0.2);
+}
+
+// define a background color and directly what should happen when hovering over it
+.button {
+  background-color: greenyellow;
+  &:hover {
+    background-color: yellow;
+  }
 }

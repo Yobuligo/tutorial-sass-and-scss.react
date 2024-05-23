@@ -6,9 +6,8 @@ export const Lesson_02: React.FC = () => {
       <div className={styles.h1}>
         <h1>Test</h1>
       </div>
-      <div>
-        New Container
-      </div>
+      <div className={styles.newContainer}>New Container</div>
+      <button className={styles.button}>My Button</button>
     </>
   );
 };
