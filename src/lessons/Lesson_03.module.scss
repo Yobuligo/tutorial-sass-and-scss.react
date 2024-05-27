@@ -6,3 +6,9 @@
   @extend .error;
   font-weight: bold;
 }
+
+@mixin small-screen {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
