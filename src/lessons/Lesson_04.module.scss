@@ -1,0 +1,11 @@
+$contrast: medium;
+.body {
+  @if ($contrast == high) {
+    color: red;
+  } @else if ($contrast == medium) {
+    color: green;
+    font-weight: 600;
+  } @else {
+    color: black;
+  }
+}

@@ -1,5 +1,5 @@
-import { Lesson_03 } from "./lessons/Lesson_03";
+import { Lesson_04 } from "./lessons/Lesson_04";
 
 export const App: React.FC = () => {
-  return <Lesson_03 />;
+  return <Lesson_04 />;
 };
